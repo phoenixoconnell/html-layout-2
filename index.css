@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+    box-sizing: border-box;
+  }  
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    margin-top: 50px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 350px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.everything {
+    width: 350px;
+    height: 800px;
+    background: rgb(248, 248, 248);
+}
+
+.everythingelse {
+    width: 350px;
+    height: 550px;
+    border: 1px solid lightgray;
+    background: white;
+    margin-left: 22px;
+    text-align: center;
+    display: inline-block;
+}
+
+.logo {
+    width: 193px;
+    height: 64px; 
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.logosub p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(152, 166, 180);
+    font-weight: bold;
+    width: 278px;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.facebooklogin {
+    width: 278px;
+    height: 42px; 
+    text-align: center;
+    display: inline-block;
+}
+
+.orbox {
+    width: 279px;
+    height: 24px; 
+    text-align: center;
+    display: inline-block;  
+}
+
+.mobile {
+    width: 265px;
+    height: 40px; 
+    background-color: rgb(248, 248, 248);
+    border: 1px solid lightgray;
+    border-radius: 3%;
+    text-align: left;
+    display: inline-block;  
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    color: lightslategray;
+}
+
+.name {
+    width: 265px;
+    height: 40px; 
+    background-color: rgb(248, 248, 248);
+    border: 1px solid lightgray;
+    border-radius: 3%;
+    text-align: left;
+    display: inline-block;  
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    color: lightslategray;
+}
+
+.username {
+    width: 265px;
+    height: 40px; 
+    background-color: rgb(248, 248, 248);
+    border: 1px solid lightgray;
+    border-radius: 3%;
+    text-align: left;
+    display: inline-block;  
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    color: lightslategray;
+}
+
+.password {
+    width: 265px;
+    height: 40px; 
+    background-color: rgb(248, 248, 248);
+    border: 1px solid lightgray;
+    border-radius: 3%;
+    text-align: left;
+    display: inline-block;  
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    color: lightslategray;
+}
+
+.signup {
+    width: 276px;
+    height: 37px; 
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.signup p {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+    font-size: .9em;
+}
+
+.box2 {
+    width: 350px;
+    height: 70px;
+    border: 1px solid lightgray;
+    background: white;
+    margin-left: 22px;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+.box2 p {
+    margin-top: 20px;
+}
+
+.applink img {
+    width: 150px;
+    height: 40px; 
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.applink p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+}
+
+.aboutus {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.support {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.press {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.api {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.jobs {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.privacy {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.terms {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.directory {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.profiles {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.hashtags {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.language {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.copyright {
+    display: inline-block;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
