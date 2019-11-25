@@ -72,9 +72,9 @@ img {
     display: inline-block;  
 }
 
-.mobile {
-    width: 265px;
-    height: 40px; 
+.inputbox {
+    width: 255px;
+    height: 25px; 
     background-color: rgb(248, 248, 248);
     border: 1px solid lightgray;
     border-radius: 3%;
@@ -84,48 +84,8 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .7em;
     color: lightslategray;
-}
-
-.name {
-    width: 265px;
-    height: 40px; 
-    background-color: rgb(248, 248, 248);
-    border: 1px solid lightgray;
-    border-radius: 3%;
-    text-align: left;
-    display: inline-block;  
-    margin: 3px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .7em;
-    color: lightslategray;
-}
-
-.username {
-    width: 265px;
-    height: 40px; 
-    background-color: rgb(248, 248, 248);
-    border: 1px solid lightgray;
-    border-radius: 3%;
-    text-align: left;
-    display: inline-block;  
-    margin: 3px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .7em;
-    color: lightslategray;
-}
-
-.password {
-    width: 265px;
-    height: 40px; 
-    background-color: rgb(248, 248, 248);
-    border: 1px solid lightgray;
-    border-radius: 3%;
-    text-align: left;
-    display: inline-block;  
-    margin: 3px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .7em;
-    color: lightslategray;
+    padding-top: 15px;
+    padding-left: 10px;
 }
 
 .signup {
@@ -157,19 +117,21 @@ img {
 }
 
 .box2 p {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .applink img {
     width: 150px;
     height: 40px; 
-    padding: 10px;
+    padding: 5px;
     margin-top: 15px;
+    display: inline-block;
 }
 
 .applink p {
     text-align: center;
     margin-top: 20px;
+    margin-left: 22px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9em;
 }
@@ -179,87 +141,7 @@ footer {
     width: 100%;
 }
 
-.aboutus {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.support {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.press {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.api {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.jobs {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.privacy {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.terms {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.directory {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.profiles {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.hashtags {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
-}
-
-.language {
+.footertext {
     display: inline-block;
     margin: 7px;
     font-family: Arial, Helvetica, sans-serif;
@@ -268,9 +150,5 @@ footer {
 }
 
 .copyright {
-    display: inline-block;
-    margin: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: .75em;
-    font-weight: bold;
+    color: lightslategray;
 }
