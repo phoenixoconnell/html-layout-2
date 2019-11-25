@@ -103,6 +103,10 @@ img {
     font-size: .9em;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .box2 {
     width: 350px;
     height: 70px;
@@ -120,18 +124,25 @@ img {
     margin-top: 30px;
 }
 
+.login {
+    color: blue;
+}
+
 .applink img {
     width: 150px;
     height: 40px; 
-    padding: 5px;
     margin-top: 15px;
     display: inline-block;
 }
 
+.applink {
+    padding-left: 40px;
+    width: 150%;
+}
+
 .applink p {
-    text-align: center;
     margin-top: 20px;
-    margin-left: 22px;
+    margin-left: 115px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .9em;
 }
@@ -139,6 +150,8 @@ img {
 footer {
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .footertext {
@@ -147,6 +160,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: .75em;
     font-weight: bold;
+    color: navy;
 }
 
 .copyright {
